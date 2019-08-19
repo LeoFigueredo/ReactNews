@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Deploy: https://serene-leakey-bb13b6.netlify.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -48,7 +50,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 
-Deploy: https://serene-leakey-bb13b6.netlify.com/
+
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
