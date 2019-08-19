@@ -45,6 +45,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
+
+
+
+Deploy: https://serene-leakey-bb13b6.netlify.com/
+
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
 ### Analyzing the Bundle Size
