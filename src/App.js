@@ -1,5 +1,6 @@
 import React, { Component, Fragment} from 'react';
 import Header from './Components/Header'; 
+import ListaNoticias from './Components/ListaNoticias';
 
 class App extends Component {
 state = {
@@ -14,9 +15,9 @@ consultarNoticias = async () =>{
   const respuesta = await fetch(url);
   const noticias = await respuesta.json();
 
-  /*this.state({
+ this.setState({
     noticias: noticias.articles
-  })*/
+  })
 
 }
 
@@ -26,7 +27,11 @@ consultarNoticias = async () =>{
        <Header
         titulo = 'Noticias React API'
        />
-       <div className="container white contenedor-noticias"></div>
+       <div className="container white contenedor-noticias">
+         <ListaNoticias
+          noticias={this.state.noticias}
+         />
+       </div>
      </Fragment>
     );
   }
